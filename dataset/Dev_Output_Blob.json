@@ -1,0 +1,16 @@
+{
+	"name": "Dev_Output_Blob",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureblobLink",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureBlob",
+		"typeProperties": {
+			"fileName": "",
+			"folderPath": "cicd/output"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
